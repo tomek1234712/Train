@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Learn JavaScript with me :)</title>
+</head>
+
+<body>
+	<script>
+		var var1 = 'Tomas',
+			result = '';
+
+
+		switch (var1) { //variable, switch depending on the variable value->zmienna, przełącz w zależności od wartości zmiennej
+			case 'Zdzisio':
+				result = 'The Varaible&apos;s value is Zdzisio'; // w przypadku
+				break; //zerwij w tym miejscu instrukcję switch.
+			case 'Tomas':
+				result = 'The Value is Tomas'; // w przypadku
+				break; //zerwij w tym miejscu instrukcję switch.
+			case 'Joe Parys':
+				result = 'The Value is Joe parys'; // w przypadku
+				break; //zerwij w tym miejscu instrukcję switch.
+			default:
+				result = 'Sorry, Nothing has matched!'; //jeśli zmienna sterująca, przyjmie wartość spoza case’ów (przypadków) znajdujących się pomiędzy klamrami. Oczywiście ta sekcja jest opcjonalna, ale powala zareagować w przypadku zaistnienia scenariusza spoza listy.
+		}
+
+		document.write(result);
+	</script>
+</body>
